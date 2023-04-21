@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Адаптивный сайт</title>
+
+    <link rel="stylesheet" href="./rest.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Manrope:wght@400;500;700&family=Fira+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- первая бибилиотека для скрола -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <!-- библиотека для анимации при скролле для подгрузки блоков сбоку -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css"
+    />
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  </head>
+  <body>
+    <div data-aos="zoom-out-right" class="wrapper">
+      <header>
+        <div class="header_up">
+          <img src="./img/header/htmlimage (12) 1.png" alt="photo" />
+          <div>
+            <button class="header_btn_white">
+              Личный кабинет<img src="./img/header/profile 1.svg" alt="photo" />
+            </button>
+            <button class="header_btn_black">
+              Калькулятор Щита
+              <img src="./img/header/calculator (3) 1.png" alt="photo" />
+            </button>
+          </div>
+        </div>
+        <div id="hr"></div>
+        <div class="header_down">
+          <button class="burger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <nav>
+            <p>Услуги</p>
+            <p>Гарантии</p>
+            <p>Примеры работ</p>
+            <p>О копании</p>
+            <p>Контакты</p>
+          </nav>
+          <div>
+            <a href="tel">+7 905 500-20-60</a>
+
+            <img
+              src="./img/header/free-icon-whatsapp-3670302.svg"
+              alt="photo"
+            />
+            <img src="./img/header/telegram (2).svg" alt="photo" />
+            <img src="./img/header/vk.svg" alt="photo" />
+            <img src="./img/header/youtube (1).svg" alt="photo" />
+            <img src="./img/header/instagram.svg" alt="photo" />
+            <img src="./img/header/profile 1.svg" alt="photo" />
+            <img src="./img/header/calculator (2) 1.svg" alt="photo" />
+          </div>
+        </div>
+
+        <div class="mobile-nav">
+          <button class="close-menu">
+            <img src="./img/Frame 1574.svg" alt="x" />
+          </button>
+          <div class="burger-nav_div">
+            <nav class="burger_nav">
+              <p>Услуги</p>
+              <p>Гарантии</p>
+              <p>Примеры работ</p>
+              <p>О копании</p>
+              <p>Контакты</p>
+              <p>+7 905 500-20-60</p>
+            </nav>
+            <img src="./img/header/htmlimage (12) 1.png" alt="photo" />
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <!-- ---------------------------------------------
+    --------------------------------------------- -->
+
+    <div class="photo_container custom-swiper-container">
+      <div class="photo_wrapper swiper-wrapper">
+        <div class="photo_slide swiper-slide">
+          <img src="./img/block2/1photo.jpg" alt="Image 1" />
+          <div class="photo_slide-content">
+            <h2>ДЕЛАЕМ ДЛЯ ВАС</h2>
+            <p>
+              Обеспечьте максимальную безопасность дома или бизнеса с нашей
+              уникальной сборкой электрощитов. Надежные авторские схемы и
+              качественное оборудование от официальных дилеров - основа каждого
+              нашего проекта. Гарантированная надежность и высокое качество
+              наших продуктов и услуг.
+            </p>
+            <button>Наши работы</button>
+          </div>
+        </div>
+        <div class="photo_slide swiper-slide">
+          <img src="./img/block2/2photo.jpg" alt="Image 2" />
+          <div class="photo_slide-content">
+            <h2>НАШ КАЛЬКУЛЯТОР</h2>
+            <p>
+              Получите реальную цену на электрощит прямо сейчас! Наш калькулятор
+              щита создаст индивидуальное предложение, учитывая все ваши
+              требования. Вы получите 3д картинку щита и актуальные цены на
+              комплектующие Вашего щита. А также точную стоимость
+              работ по сборке.
+            </p>
+            <button>
+              Калькулятор <span class="calculator_span">&#8594;</span>
+            </button>
+          </div>
+        </div>
+        <div class="photo_slide swiper-slide">
+          <img src="./img/block2/3photo.jpg" alt="Image 3" />
+          <div class="photo_slide-content">
+            <h2>ЛИЧНЫЙ КАБИНЕТ</h2>
+            <p>
+              Управляйте вашим проектом легко и удобно с нашим Личным кабинетом!
+              Следите за этапами работ и получайте всю необходимую информацию о
+              проекте в одном месте. Чат поможет решить любые вопросы быстро и
+              прозрачно. Зарегистрируйтесь и наслаждайтесь комфортом
+              взаимодействия с нами!
+            </p>
+            <button>Перейти в личный кабинет</button>
+          </div>
+        </div>
+      </div>
+      <div class="custom-swiper-pagination"></div>
+    </div>
+    <!-- ---------------------------------------------
+    --------------------------------------------- -->
+
+    <div data-aos="zoom-out-right" class="wrapper">
+      <p id="pBorder">Наши услуги</p>
+      <section class="our-services">
+        <div class="card">
+          <img
+            src="./img//block1/WhatsApp Image 2023-04-11 at 21.20 1.png"
+            alt="Image 1"
+            class="card__image"
+          />
+          <div class="card__content">
+            <div class="card__title">
+              <img src="./img/block1/analytics 1.png" alt="photo" />
+              <h3>Проектирование</h3>
+            </div>
+            <p class="card__text">
+              Мы предоставляем услугу проектирования электрических щитов с
+              использованием современных 2D и 3D технологий. Наши специалисты
+              разработают для вас проект, который будет максимально
+              соответствовать вашим требованиям и пожеланиям. Мы обеспечиваем
+              высокое качество проектирования щитов и точность вычислений.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./img/block1/Rectangle 4382.png"
+            alt="Image 2"
+            class="card__image"
+          />
+          <div class="card__content">
+            <div class="card__title">
+              <img src="./img/block1/collaboration 1.png" alt="photo" />
+              <h3>Сборка и тестрование</h3>
+            </div>
+            <p class="card__text">
+              Мы гарантируем качественную сборку электрических щитов с
+              использованием только лучших материалов и оборудования. Наши
+              сотрудники знают все нюансы и особенности сборки и готовы
+              предоставить Вам щиты любой сложности и конфигурации. Наша
+              продукция перед передачей клиенту неизменно проходит лабораторную
+              проверку качества комплектующих и сборки.
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <img
+            src="./img/block1/WhatsApp Image 2023-04-11 at 21.20 2.png"
+            alt="Image 3"
+            class="card__image"
+          />
+          <div class="card__content">
+            <div class="card__title">
+              <img src="./img/block1/screwdriver 1.png" alt="photo" />
+
+              <h3>Доставка и монтаж</h3>
+            </div>
+            <p class="card__text">
+              Наши специалисты выполняют монтаж электрических щитов на любых
+              объектах: в квартирах, домах, офисах, на промышленных
+              предприятиях. Мы гарантируем качественный и быстрый монтаж с
+              учетом всех нормативов и требований безопасности. Вы получите
+              готовый и работающий щит, который прослужит вам долгие годы.Также
+              мы можем отправить готовый щит транспортной компанией по всей
+              России, а Вы – сэкономить время и деньги.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ---------------------------------------------
+    --------------------------------------------- -->
+    <div data-aos="zoom-out-right" class="wrapper">
+      <p id="pBorder">Гарантии</p>
+      <section class="guarantees">
+        <div class="guarantees_block_one">
+          <div class="guarantees_container">
+            <img src="./img/block 3/100 1.svg" alt="photo" />
+            <p>
+              • Качество материалов: Мы используем только высококачественные
+              материалы, которые прошли тщательный отбор и соответствуют всем
+              необходимым требованиям и стандартам.
+            </p>
+          </div>
+          <div class="guarantees_container">
+            <img src="./img/block 3/thumbs-up 1.svg" alt="photo" />
+            <p>
+              • Гарантия на продукцию 3 года: Мы гарантируем качество нашей
+              продукции и бесплатно устраним любые дефекты в течение
+              гарантийного срока.
+            </p>
+          </div>
+          <div class="guarantees_container">
+            <img src="./img/block 3/check 1.svg" alt="photo" />
+            <p>
+              • Опытные специалисты: Наша команда состоит из опытных и
+              профессиональных специалистов, которые имеют большой опыт работы в
+              сфере сборки электрических щитов.
+            </p>
+          </div>
+        </div>
+        <div class="guarantees_block_two">
+          <div class="guarantees_container">
+            <img src="./img/block 3/stopwatch 1.svg" alt="photo" />
+            <p>
+              • Соблюдение сроков: Мы всегда соблюдаем сроки выполнения работ и
+              не допускаем задержек в сроках поставки.
+            </p>
+          </div>
+          <div class="guarantees_container">
+            <img src="./img/block 3/shield 1.svg" alt="photo" />
+            <p>
+              • Ответственность за безопасность: Мы относимся к вопросу
+              безопасности нашей продукции и наших работ с особой
+              ответственностью.Вся наша продукция перед передачей клиенту
+              неизменно проходит лабораторную проверку качества
+              комплектующих и сборки.
+            </p>
+          </div>
+          <div class="guarantees_container">
+            <img src="./img/block 3/consulting 1.svg" alt="photo" />
+            <p>
+              •Поддержка и консультации: Мы всегда готовы ответить на любые
+              вопросы, касающиеся нашей продукции и услуг, и предоставляем
+              поддержку и консультации на всех этапах работы с нами.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- ---------------------------------------------
+      --------------------------------------------- -->
+    <div data-aos="zoom-out-right" class="wrapper">
+      <p id="pBorder">Калькулятор</p>
+      <div class="calculator">
+        <div class="calculator_block_left">
+          <p>
+            Наш калькулятор щита - это легкий способ узнать точную стоимость и
+            визуализировать ваш проект. Без скрытых платежей или дополнительных
+            расходов, вы можете легко планировать свой бюджет и избежать
+            неприятных сюрпризов. Получите 3D-изображение вашего будущего щита,
+            чтобы убедиться, что он соответствует всем требованиям. Наш
+            калькулятор щита экономит ваше время и деньги, делая процесс заказа
+            быстрым, удобным и простым.
+          </p>
+          <a>Калькулятор <span class="calculator_span">&#8594;</span></a>
+        </div>
+        <div class="calculator_block_right">
+          <img src="./img/block4/PhotoFunia-1681243348 1.jpg" alt="photo" />
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------------------------
+    --------------------------------------------- -->
+
+    <div data-aos="zoom-out-right" class="wrapper">
+      <p id="pBorder">Личный кабинет</p>
+      <div class="cabinet">
+        <div class="cabinet_leftBlock">
+          <button class="cabinet_whiteBtn" href="#">Возможности</button>
+          <p>
+            • В нашем Личном кабинете можно хранить всю информацию о проекте на
+            одной платформе. Это удобно, так как это позволяет избежать утери
+            важных документов или перепутывания информации.
+          </p>
+          <button class="cabinet_whiteBtn" href="#">Инструкция</button>
+          <p>
+            • Личный кабинет является гарантией комфорта и прозрачности. Он
+            обеспечивает легкий доступ к необходимой информации и обеспечивает
+            полную прозрачность процесса работы. Более подробно с функционалом
+            можно ознакомиться в видеоинструкции.
+          </p>
+          <button class="cabinet_whiteBtn" href="#">Функции</button>
+          <p>
+            • Через наш Личный кабинет, Вы будете получать уведомления об этапах
+            работ, сохранять документацию, сметы и договоры, а также общаться с
+            нашей командой через удобный чат. Это дает возможность полностью
+            контролировать процесс работы и получать информацию о его статусе в
+            режиме реального времени.
+          </p>
+
+          <button class="cabinet_blackBtn">Перейти в личный кабинет</button>
+        </div>
+        <div class="cabinet_rightBlock">
+          <a href=""> <img src="./img/Frame 1595.jpg" alt="photo" /></a>
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------------------------
+      --------------------------------------------- -->
+
+    <div data-aos="zoom-out-right" class="wrapper">
+      <p id="pBorder">Наши работы</p>
+
+      <div class="our_work swiper-container">
+        <div class="swiper-wrapper swiper-container">
+          <div class="swiper-slide our_work__card">
+            <img src="./img/card/Rectangle 4381-2.jpg" alt="photo" />
+            <div class="our_work__card_div">
+              <p>Работа №1</p>
+              <p>10 000₽</p>
+            </div>
+          </div>
+          <div class="swiper-slide our_work__card">
+            <img src="./img/card/Rectangle 4381-1.jpg" alt="photo" />
+            <div class="our_work__card_div">
+              <p>Работа №2</p>
+              <p>15 000₽</p>
+            </div>
+          </div>
+          <div class="swiper-slide our_work__card">
+            <img src="./img/card/Rectangle 4381.jpg" alt="photo" />
+            <div class="our_work__card_div">
+              <p>Работа №3</p>
+              <p>5 000₽</p>
+            </div>
+          </div>
+          <div class="swiper-slide our_work__card">
+            <img src="./img/card/Rectangle 4381-2.jpg" alt="photo" />
+            <div class="our_work__card_div">
+              <p>Работа №1</p>
+              <p>10 000₽</p>
+            </div>
+          </div>
+          <div class="swiper-slide our_work__card">
+            <img src="./img/card/Rectangle 4381-1.jpg" alt="photo" />
+            <div class="our_work__card_div">
+              <p>Работа №2</p>
+              <p>15 000₽</p>
+            </div>
+          </div>
+          <div class="swiper-slide our_work__card">
+            <img src="./img/card/Rectangle 4381.jpg" alt="photo" />
+            <div class="our_work__card_div">
+              <p>Работа №3</p>
+              <p>5 000₽</p>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+      <a id="all_info"
+        >Больше работ <span class="calculator_span">&#8594;</span></a
+      >
+    </div>
+
+    <!-- ---------------------------------------------
+      --------------------------------------------- -->
+
+    <div data-aos="zoom-out-right" class="wrapper">
+      <p id="pBorder">4 причины обратиться к нам</p>
+      <div class="elProject">
+        <div class="elProject_leftBlock">
+          <h2>
+            EL <br />
+            project
+          </h2>
+          <p>
+            • Мы предлагаем уникальные авторские схемы и индивидуальный подход к
+            каждому проекту.
+          </p>
+          <p>
+            • Наша команда состоит из опытных специалистов, которые продумывают
+            каждую деталь проекта до мелочей. Мы гарантируем только качественное
+            оборудование и работаем только с официальными дилерами.
+          </p>
+          <p>
+            • Мы понимаем, что безопасность и надежность электроснабжения в доме
+            - это важно для каждого. Поэтому мы предлагаем исключительную
+            надежность наших продуктов и услуг.
+          </p>
+          <p>
+            • Заказывая у нас сборку электрощитов, вы можете быть уверены в
+            качестве нашей работы и в том, что ваш дом будет обеспечен надежным
+            и безопасным электрическим оборудованием.
+          </p>
+        </div>
+        <div class="elProject_rightBlock">
+          <img src="./img/Group 15.png" alt="photo" />
+        </div>
+      </div>
+    </div>
+    <!-- ---------------------------------------------
+      --------------------------------------------- -->
+    <hr style="height: 2px; background-color: #333333" />
+    <section>
+      <div data-aos="zoom-out-right" class="wrapper">
+        <div class="security">
+          <div class="security_left">
+            <p>
+              Обеспечивая безопасность жилья, мы гарантируем профессиональный и
+              индивидуальный подход к каждому проекту. Свяжитесь с нами уже
+              сегодня, чтобы начать работу над вашим проектом!
+            </p>
+            <div>
+              <div class="security_left_containerSubText">
+                <img src="./img/security/telephone-call (1) 1.png" alt="tel" />
+                <span>+7 905 500-20-60</span>
+              </div>
+              <div class="security_left_containerSubText">
+                <img src="./img/security/email 1.png" alt="email" />
+                <span> info@elproject.pro</span>
+              </div>
+            </div>
+            <div>
+              <img src="./img/security/telegram (4) 1.png" alt="tel" /><img
+                src="./img/security/whatsapp (2) 1.png"
+                alt="wat"
+              />
+            </div>
+          </div>
+
+          <form class="security_right">
+            <p>ЗАПОЛНИТЕ ДАННЫЕ</p>
+            <div class="form-group">
+              <input
+                class="section_input"
+                placeholder="ФИО"
+                type="text"
+                id="name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                class="section_input"
+                placeholder="Телефон"
+                type="tel"
+                id="phone"
+                name="phone"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <input
+                class="section_input"
+                placeholder="Email"
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <textarea
+                placeholder="Ваш комментарий"
+                id="comment"
+                name="comment"
+              ></textarea>
+            </div>
+            <div class="form-group form_checkboxDiv">
+              <input type="checkbox" id="agree" name="agree" required />
+              <label for="agree"
+                >Заполняя данную форму, я даю своё согласие на обработку моих
+                персональных данных в сети интернет</label
+              >
+            </div>
+            <div class="security__buttonDiv">
+              <div class="form-group">
+                <input type="file" id="file" name="file" />
+              </div>
+              <div class="form-group buttons">
+                <button id="submitBtn" type="submit">Прикрепить файл</button>
+                <button type="reset">Отправить</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div data-aos="zoom-out-right" class="wrapper">
+        <div class="footer__inner">
+          <div class="footer__logo">
+            <img src="./img/footer/htmlimage (9) 1.png" alt="icon" />
+          </div>
+          <div class="footer__copy">Все права защищены © ELproject.pro</div>
+          <div class="footer__social">
+            <a href="#"><img src="./img/footer/vk (4) 1.png" alt="icon" /></a>
+            <a href="#"
+              ><img src="./img/footer/telegram (5) 1.png" alt="inst"
+            /></a>
+            <a href="#"
+              ><img src="./img/footer/whatsapp (3) 1.png" alt="inst"
+            /></a>
+            <a href="#"
+              ><img src="./img/footer/instagram (2) 1.png" alt="inst"
+            /></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
